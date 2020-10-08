@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Open.Sans:300,400,600,700,800&display=swap');
+
+* {
+	font-family: 'Roboto';
+}
+
+.principal {
+	box-sizing: border-box;
+	background: #000000;
+	overflow: hidden;
+	color: #fff;
+	height: 3030px;
+	margin: 0;
+}
+
+.container {
+	
+	 text-align: center;
+	  margin: 0 auto;
+	  padding: 0 3rem;
+}
+
+/*----------------------------- Home ------------------------*/
+
+main {
+	height: 95%;
+	text-align: center;
+	margin: 0;
+	padding: 2rem 0;
+}
+
+main .principal {
+	background: linear-gradient(#f08a5d, #5d54a4);
+	height: 25%;
+}
+
+main .principal-conteudo {
+	display: flex;
+}
+
+main .principal-img-1 {
+	display: block;
+	height: 30%;
+}
+
+main .principal-img-2 {
+	height: 40%;
+	position: relative;
+	bottom: 75px;
+	right: 300px;
+}
+
+main .principal-conteudo img {
+	margin-top: 7em;
+}
+
+main .principal-conteudo .detalhes {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	line-height: 1;
+	top: 90px;
+}
+
+main .principal-conteudo .detalhes h1 {
+	color: #444;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+main .principal-conteudo .detalhes p {
+	position: relative;
+	top: 45px;
+	font-size: 1.1em;
+	margin-left: 3em;
+	margin-right: 3em; 
+}
+
+main .btn-dev-primeiro {
+	color: #fff;
+	position: relative;
+	top: 75px;
+	font-weight: bold;
+	border-radius: 30px;
+	background: #b90415;
+	padding: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+	margin-bottom: 1em;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+main .btn-dev-primeiro:hover {
+	color: #fff;
+	padding-right: 4em;
+	padding-left: 4em;
+}
+
+/*--------------------------------------- Home office ---------------------------*/
+
+main .home-office {
+	height: 30%;
+	background: #5d54a4;
+	color: #fff;
+}
+
+main .home-office-detalhes {
+	height: 100%;
+}
+
+main .home-office-detalhes-conteudo h2 {
+	font-weight: 800;
+	font-size: 2.5em;
+}
+
+main .home-office-detalhes-conteudo .lead {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+main .home-office-detalhes-conteudo h2 span {
+	color: #ff2562;
+}
+
+main .home-office-detalhes-vantagens {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+main .home-office-detalhes-vantagens .laptop-icon {
+	width: 30%;
+	margin-left: 2em;
+	padding-top: 5em;
+}
+
+main .home-office-detalhes-vantagens .laptop-icon p {
+	padding-bottom: 2em;
+}
+
+main  .btn-vantagens {
+	position: relative;
+	top: 75px;
+	font-weight: bold;
+	border-radius: 30px;
+	background: #fff;
+	padding: 1em;
+	margin-top: 2em;
+	padding-right: 5em;
+	padding-left: 5em;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+main  .btn-vantagens:hover {
+	border: 1px solid #fff;
+	color: #fff;
+	background: none;
+}
+
+/*--------------------------------------- Dev ------------------------------------*/ 
+
+main .dev {
+	height: 20%;
+	color: #fff;
+	text-align: left;
+}
+
+main .dev .dev-detalhes {
+	display: flex;
+	width: 80%;
+	margin-left: 3em;
+	line-height: 2em;
+}
+
+main .dev-detalhes-conteudo {
+	margin-right: 5em;
+	margin-left: 5em;
+	width: 90%;
+}
+
+main .dev .dev-detalhes h2 {
+	text-decoration: none;
+	color: #fff;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-weight: 700;
+}
+
+main .dev .dev-detalhes h2:hover {
+	text-decoration: none;
+}
+
+main .dev .dev-detalhes p {
+	font-size: 0.9em;
+}
+
+main .dev .dev-detalhes span {
+	color: #ff2562;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+main .dev .dev-detalhes .link-reportagem {
+	color: #fff;
+}
+
+main .btn-dev {
+	color: #fff;
+	font-weight: bold;
+	border-radius: 30px;
+	background: #b90415;
+	padding: 1em;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+main .btn-dev:hover {
+	background: #d3071b;
+	border: 1px solid #d3071b;
+	font-weight: bold;
+	color: #fff;
+}
+
+main .dev .dev-detalhes .img1 {
+	height: 20em;
+	position: relative;
+	margin-left: 2em;
+	right: 60px;
+	margin: 0;
+}
+
+main .dev .dev-detalhes .img3 {
+	height: 15em;
+	position: relative;
+	margin-left: 2em;
+	top: 10%;
+	margin: 0;
+}
+
+/*------------- Habilidades ---------------*/
+
+main .habilidades {
+	padding-top: 7em;
+	height: 27%;
+	width: 100%;
+	background: linear-gradient(#000, #fff);
+	color: #fff;
+}
+
+main .habilidades-detalhes {
+	width: 100%;
+}
+
+main .habilidades-detalhes-conteudo {
+	height: 100%;
+	padding-top: 2em;
+	margin-left: 2em;
+}
+
+main .habilidades-detalhes-conteudo h2 {
+	margin-right: 2.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+main .habilidades-detalhes-conteudo p {
+	font-size: 1.2em;
+}
+
+main .habilidades-detalhes-conteudo span {
+	color: #000;
+	font-weight: 700;
+}
+
+main .habilidades-detalhes-conteudo .lead {
+	margin-right: 5em;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+main .habilidades .btn-habilidades {
+	color: #fff;
+	border-radius: 30px;
+	font-weight: bold;
+	background: #b90415;
+	padding: 1em;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}
+
+main .habilidades .btn-habilidades:hover {
+	background: #d3071b;
+}
+
+
+/*------------ Footer -----------------*/
+
+footer {
+	margin: 0;
+	padding: 0;
+	height: 5%;
+	background: #333;
+	width: 100%;
+}
+
+footer .rodape {
+	position: relative;
+	top: 10px;
+}
+
+footer .redes-sociais {
+	position: relative;
+	top: 25px;
+	left: 25%;
+	display: flex;
+}
+
+footer .redes-sociais li {
+	padding: 0 .5em;
+	list-style: none;
+}
+
+footer .redes-sociais img {
+	height: 40px;
+	width: 40px;
+}
+
+footer .rodape-lista span {
+	position: relative;
+	font-size: 1.3em;
+	font-weight: 700;
+	top: 55px;
+	left: 10px;
+}
+
+
+
+/*------------------------------------- MEDIA QUERIES -------------------------------------------------------*/
+
+
+
+
+@media (max-width: 800px) {
+	/*--- main principal --*/
+ 	
+ 	main {
+ 		height: 95%;
+ 	}
+
+	main .principal {
+		height: 30%;
+	}
+
+	main .principal h1 {
+		position: relative;
+		right: 45px;
+		top: 41px;
+		text-align: left;
+		font-size: 1.8em;
+		color: #444;
+		font-weight: 800;
+	}
+
+	main .principal p {
+		position: relative;
+		text-align: left;
+		top: 55px;
+		right: 90px;
+	}
+
+	main .principal-img-1 {
+		position: relative;
+		top: 250px;
+		right: 40px;
+		height: 23%;
+	}
+
+	main .principal-img-2 {
+	height: 30%;
+	position: relative;
+	top: 270px;
+	right: 250px;
+}
+
+main .principal .btn-dev-primeiro {
+	position: relative;
+	top: 45px;
+	right: 60px;
+	padding: 0.5em;
+}
+
+	/*-- Homme office --*/
+
+	main .home-office {
+		height: 20%;
+	}
+
+	main .home-office-detalhes-conteudo {
+		width: 90%;
+	}
+
+	main .home-office-detalhes-vantagens {
+		position: relative;
+		right: 25px;
+		bottom: 45px;
+		display: flex;
+		width: 100%;
+		box-sizing: border-box;
+		margin-bottom: 5em;
+	}
+
+	main .home-office-detalhes-vantagens .laptop-icon {
+		margin-left: 1.5em;
+	}
+
+	main .home-office-detalhes {
+		font-size: 0.7em;
+	}
+
+	main .btn-container {
+		position: relative;
+		bottom: 145px;
+		height: 100%;
+	}
+
+	main .btn-vantagens {
+		position: relative;
+		top: 25px;
+		z-index: 6;
+	}
+
+	/*-- Dev --*/
+
+	main .dev {
+		height: 25%;
+	}
+
+	main .dev .dev-detalhes {
+		font-size: 0.6em;
+		margin: 0;
+	}
+
+	main .dev-detalhes-conteudo {
+		position: relative;
+		width: 200px;
+		right: 45px;
+	}
+
+	main .dev .dev-detalhes .img1 {
+		height: 15em;
+		top: 50px;
+		right: 50%;
+	}
+
+	main .dev .dev-detalhes .img2 {
+		position: absolute;
+		margin-right: 10em;
+		height: 10em;
+	}
+
+	main .dev .dev-detalhes .img3 {
+		height: 12em;
+		right: 120px;
+		top: 255px;
+	}
+
+	/*--------- Habilidades ----------*/
+
+	main .habilidades {
+		height: 27%;
+	}
+
+	main .habilidades-detalhes-conteudo {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	main .habilidades-detalhes-conteudo h2 {
+		font-size: 1.5em;
+		text-align: left;
+		position: relative;
+		bottom: 95px;
+		right: 60px;
+	}
+
+	main .habilidades-detalhes-conteudo .lead {
+		width: 100%;
+		position: relative;
+		text-align: left;
+		bottom: 75px;
+		right: 80px;
+		font-size: 1.1em;
+	}
+
+	main .habilidades-detalhes-conteudo p {
+		position: relative;
+		bottom: 65px;
+		right: 60px;
+		margin-right: 2.5em;
+		text-align: left;
+		font-size: 0.7em;
+	}
+
+	main .habilidades img {
+		height: 150px;
+		position: relative;
+		bottom: 55px;
+		right: 35px;
+	}
+
+	main .habilidades .btn-habilidades {
+		padding: 0.6em;
+		position: relative;
+		right: 50px;
+		bottom: 40px;
+	}
+
+
+/*------------ Footer -------------------*/
+
+	footer {
+		background: #333;
+		width: 100%;
+	}
+
+	footer .redes-sociais {
+	position: relative;
+	top: 70px;
+	display: flex;
+	}
+
+	footer .rodape-lista span {
+	position: relative;
+	font-size: 1.3em;
+	font-weight: 700;
+	top: 45px;
+	}
+}
+
+
